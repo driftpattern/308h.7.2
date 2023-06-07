@@ -16,10 +16,10 @@ class Governor {
     static party = "Democratic";
     static state = "California";
 
-    static election() {
+    static campaign() {
         console.log("something");
     }
-    static speech() {
+    static accumulateWealth() {
         console.log("something else");
     }
 }
