@@ -23,3 +23,5 @@ class Governor {
         console.log("something else");
     }
 }
+
+console.log(Governor);
