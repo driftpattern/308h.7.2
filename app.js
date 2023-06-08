@@ -15,13 +15,19 @@ class Governor {
     static dob = "19380407";
     static party = "Democratic";
     static state = "California";
+    static terms = ["1975-1983", "2011-2019"];
 
     static campaign() {
-        console.log("something");
+        console.log("campaign");
     }
     static accumulateWealth() {
-        console.log("something else");
+        console.log("accumulate wealth");
     }
 }
-
 console.log(Governor);
+
+class Person {
+    constructor () {
+        // something
+    }
+}
